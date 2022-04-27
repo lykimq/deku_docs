@@ -80,6 +80,8 @@ Remark: is it a good place here?
 
 # KP 4: Data structure requirements
 
+TODO: what can I benchmark for this?
+
 `src/node/tendermint_data.ml`
 
 https://github.com/marigold-dev/deku/pull/433 (at section of Data structure requirements)
@@ -105,34 +107,34 @@ Benchmark the max of this log (height and rounds)
 
 ---
 
-# KP 5: Benchmark hashing functions
-
-## KP 5.1: State hash
+<!--## KP 5.1: State hash
 
 TODO: ask @d4hines for clarify this point
 
 - State hashing run without parallel
-- What is the gain of having the state hashing run in parallel
+- What is the gain of having the state hashing run in parallel-->
 
-## KP 5.2: Signing and verifying signatures
+# KP 5: Block pool, signing and verifying signatures
 
+<!--
 - Functions the validators including the producer and validators signing and verifying signatures in a block and operations.
 
-The validators can vote (accept the operations or not by voting Nil), these vote is like a endorsement of the block. 
+The validators can vote (accept the operations or not by voting Nil), these vote is like a endorsement of the block. -->
 
 - How many signatures (validators votes accept) for a block to be accepted?
 
-Then the block with enough signatures from validators will be commited to a block pool.
+**Block pool**: the block with enough signatures from validators will be commited to a block pool.
 
 - How big is this block pool? what is it limit?
 - How the block priority to call and commit to Deku chain?
 - How long a block can stay in this block pool? if after a time (when) it will be deleted? (will it be deleted)? is it as mempool in Tezos?
 
+<!--
 ## KP 5.3: Compute the hash of a block
 
 - Hashing block: A block of transactions that the producer will commit to Deku, hash the final state from this block.
 
-- How many Gb can be hash per second (state hashing, how big the state can be hash per second?)
+- How many Gb can be hash per second (state hashing, how big the state can be hash per second?)-->
 
 ---
 
