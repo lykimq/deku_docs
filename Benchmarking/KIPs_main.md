@@ -1,49 +1,49 @@
 
 # KPI: Key Performance Indicators for benchmarking Deku, more specifically the Tendermint consensus
 
-**Notes**: These KPIs is **not** order by priority
+**Notes**: These KPIs are **not** ordered by priority
 
-Tendermint achieves consensus through 3 step process (Proposal, Prevote, Precommit) and works in rounds.
+Tendermint achieves consensus with a 3 step process (Proposal, Prevote, Precommit) and works in rounds.
 
-**Definition about validator**: Among the validators (a validator is a Deku node), there is only one producer (validator that produce block), the rest is validators who take the proposes block from block producer and validate the block (when the validators accepted the block propose, they will sign and send it back to the block producer, those signatures can be seen as endorsement in Tezos). The block producer is then responsible commit a valid block in Deku. 
+**Definition of a validator**: Among the validators (a validator is a Deku node), there is only one producer (a validator that produces a block), the rest are validators who take the proposed block from the block producer and validate it. when the validators accepted the proposed block they will sign and send it back to the block producer, those signatures are the same as an endorsement would be in Tezo. The block producer then commits the valid block in Deku. 
 
-Number of validators: Tendermint requires at least 4 validators (one producer and 3 validators) to run properly. Currently, it max is 15 to 21 validators to run effectively, if there are more validators the algorithm will not run well. 
+Number of validators: Tendermint requires at least 4 validators (one producer and 3 validators) to run properly. Currently, it can support at most 15 to 21 validators. 
 
-**Definition about operations in Deku**: there are 3 operations: deposits, transfers and withdrawal.
+**Definition of Deku operations**: there are 3 operations: deposits, transfers and withdrawal.
 
-When the smart contract is deposited to Deku, it stores in a vault (its size limit is the limit of Bigmap of Michelson smart contract). Then Deku will forges this operation to Deku's ticket (so that Deku can do operations on it and it is conserded as internal operations). These operations are not observed on Tezos' chain (only on Deku's chain).
+When the smart contract is deposited to Deku, it stores it in a vault (its size limit is the limit of Bigmap of Michelson smart contract). Deku will then forge this operation to Deku's ticket so it will be considered an internal operation, and deku can perform operations on it. These operations are not observed on Tezos' chain, only on Deku's chain.
 
-**Definition about internal operations inside Deku**: those are ticket operations: transfer ticket, etc. 
+**Definition of Deku internal operations**: those are ticket operations, transfer ticket, etc. 
 
-There is a gossip network to communicate between nodes. This is not discuss in this document.
+There is a gossip network to communicate between nodes. This is not discussed yet in this document.
 
 There are two environments we need to benchmark:
-- Deploy and interact with Deku chain
-- Locally without interact with Deku chain
+- Deploy and interact with the Deku chain
+- Locally without interacting with the Deku chain
 
 For transactions, there are two kinds of transactions we are taking into account:
 - Normal transaction (A sends 10 xtz to B)
 - Smart contract call (A call a smart contract C)
 
 Deku run on RAM and reply on hardware to run and store states.
-
+    
 ---
 
 # KPI 1: Locally
 
-The first environment without deploying the network. We are targeting these items to benchmarking:
+A local environment existing on a single machine. We are using this benchmark:
 
 - Normal transaction: how many transactions we can do? how many operations it is considered as full?
-- Smart contract call: how many transactions we can do? etc.
+- Smart contract call: how many transactions we can do? How large of a contract can we call? etc.
 - Memory consumption: what is the minimal memory that we are using to do the normal transfer? smart contract call? etc. (Deku run on RAM)
 - Minimal block time: what is the minimal block time?
 - How many Gb can we hash per second (it is a state hashing, how big the state can be?) (It is the state hash of the final block on Deku -> we need to hash it -> then we can use it to the Tezos chain?).
-- Since there are probably two main variables that will determine block time and block size; gas limits and block size. We should max out these two variables separately in benchmarking to see what their max capacities will be. 
+- Since there are probably two main variables that will determine block time, gas limits, and block size: network bandwidth, and validator speed. We should max out these two variables separately in benchmarking to see what their effect on capacities will be. 
 ---
 
 # KPI 2: Deploy with the network
 
-The same items as the local on KPI 1 but with the interaction with the Deku's chain.
+The same items as the local on KPI 1 but with the interactions done on a Deku's chain.
 
 Additionally, identify hardware configurations on cloud. Run validators on different hardware configurations.
 
@@ -51,7 +51,7 @@ The senario can be:
 
 - 4 validators (base case):
     - hardware configurations: 
-        - minimal hardware configuration: find out what is the minimal hardware configuration that require for validators to run on cloud. 
+        - minimal hardware configuration: find out the minimal hardware configuration that are required for validators to run on the cloud. 
         - Then change to run validators with different hardware and then compare the results.
     - operations: benchmarking to see how many operations (deposits, transfers, withdrawals) it can validate, at what minimal hardware configuration that it can handle for different number of operations. For instance, transfer 10, 1000 , etc. keep on increasing to see requirements.
 
@@ -101,7 +101,7 @@ These functions affect the perform of the operations required in Tendermint.
 
 A decision log: 
 - at what height the value that it was decided on
-- and the round it was deciced on (the round is required to mitigate byzantine threats for instance nodes lying on rounds).
+- and the round it was decided on (the round is required to mitigate byzantine threats for instance nodes lying on rounds).
 
 Benchmark the max of this log (height and rounds)
 
@@ -111,8 +111,8 @@ Benchmark the max of this log (height and rounds)
 
 TODO: ask @d4hines for clarify this point
 
-- State hashing run without parallel
-- What is the gain of having the state hashing run in parallel
+- State hashing runs without parallel
+- What is the gain of having state hashing run in parallel
 - @Swerve's guess
   - parallel hashing means that if you have 1k items to hash, instead of hashing them all serially, you can divide up the work and have 64 (or whatever) threads hashing them all at the same time
   - you can employ this tech to speed up the creation of merkle roots as well 
