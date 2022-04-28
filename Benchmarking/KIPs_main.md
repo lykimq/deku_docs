@@ -107,12 +107,16 @@ Benchmark the max of this log (height and rounds)
 
 ---
 
-<!--## KP 5.1: State hash
+## KP 5.1: State hash
 
 TODO: ask @d4hines for clarify this point
 
 - State hashing run without parallel
-- What is the gain of having the state hashing run in parallel-->
+- What is the gain of having the state hashing run in parallel
+- @Swerve's guess
+  - parallel hashing means that if you have 1k items to hash, instead of hashing them all serially, you can divide up the work and have 64 (or whatever) threads hashing them all at the same time
+  - you can employ this tech to speed up the creation of merkle roots as well 
+
 
 # KP 5: Block pool, signing and verifying signatures
 
