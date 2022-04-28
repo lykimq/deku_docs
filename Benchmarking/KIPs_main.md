@@ -38,7 +38,7 @@ The first environment without deploying the network. We are targeting these item
 - Memory consumption: what is the minimal memory that we are using to do the normal transfer? smart contract call? etc. (Deku run on RAM)
 - Minimal block time: what is the minimal block time?
 - How many Gb can we hash per second (it is a state hashing, how big the state can be?) (It is the state hash of the final block on Deku -> we need to hash it -> then we can use it to the Tezos chain?).
-
+- Since there are probably two main variables that will determine block time and block size; gas limits and block size. We should max out these two variables separately in benchmarking to see what their max capacities will be. 
 ---
 
 # KPI 2: Deploy with the network
@@ -154,10 +154,11 @@ Note discuss with GA:
     - Transaction with SM (A calls C)? how many transfer we can do (no network), without deploy the chain (internal tests)
 
 - Minimal Block Time: if remove all the timeout the time between block is how long
-
+  - This will depend on block gas limits and block size. So we need to know those first before we can understand minimal block times.  
 - Depoly the chain:
 
     - TPS (network)
 
 - Deku run on RAM:
     - Memory consumption without networks
+    - To determine memory consumption over deku, we will need to determine how much memory is required for transactions and smart contract calls. The smart contract calls will need to be tested at varying sizes to see the largest and smallest that things can get. 
