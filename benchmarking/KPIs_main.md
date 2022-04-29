@@ -7,7 +7,7 @@
 
 Tendermint achieves consensus with 3 steps process (Proposal, Prevote, Precommit) and works in rounds.
 
-**Definition of a validator**: Among the validators (a validator is a Deku node), there is only one producer (a validator that produces a block), the rest are validators who take the proposed block from the block producer and validate it. When the validators accepted the proposed block they will sign and send it back to the block producer, those signatures are the same as an endorsement would be in Tezo. The block producer then commits the valid block in Deku. 
+**Definition of a validator**: Among the validators (a validator is a Deku node), there is only one producer (a validator that produces a block), the rest are validators who take the proposed block from the block producer and validate it. When the validators accepted the proposed block they will sign and send it back to the block producer, those signatures are the same as an endorsement would be in Tezos. The block producer then commits the valid block in Deku. 
 
 Number of validators: Tendermint requires at least 4 validators (one producer and 3 validators) to run properly. Currently, it can support at most 15 to 21 validators. 
 
@@ -107,7 +107,7 @@ KPIs 1: Local
 | 5   | State hash function | core_bench, perf  | TBD      |
 | 6   | State hash with parallel | core_bench, perf  | TBD      |
 | 7   | Verify signatures | core_bench, perf  | TBD      |
-| 8   | Accounts, tickets | End-end  | TBD      |
+| 8   | Accounts, tickets | End-end, core_bench  | TBD      |
 
 
 KPIs 2 : Network
@@ -120,7 +120,7 @@ KPIs 2 : Network
 | 5   | State hash function | core_bench, perf  | TBD      |
 | 6   | State hash with parallel | core_bench, perf  | TBD      |
 | 7   | Verify signatures | core_bench, perf  | TBD      |
-| 8   | Accounts, tickets | End-end  | TBD      |
+| 8   | Accounts, tickets | End-end, core_bench  | TBD      |
 | 9   | Validators on different hardware | End-end  | TBD      |
 
 KPIs 3: profiling
