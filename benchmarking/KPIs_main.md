@@ -1,6 +1,45 @@
 
 # KPIs: Key Performance Indicators for benchmarking Deku, more specifically the Tendermint consensus
 
+## Summary of KPIs
+
+KPIs 1: Local
+
+| No. | Name               | Tool     | Status   |
+| ----| ------------------ | -------- | -------- |
+| 1   | Normal transaction | End-end  | TBD      |
+| 2   | Smart contract call| End-end  | TBD      |
+| 3   | Memory consumption | perf, memtrace, core_bench  | TBD      |
+| 4   | Minimal block times | End-end  | TBD      |
+| 5   | State hash function | core_bench, perf  | TBD      |
+| 6   | State hash with parallel | core_bench, perf  | TBD      |
+| 7   | Verify signatures | core_bench, perf  | TBD      |
+| 8   | Accounts, tickets | End-end, core_bench  | TBD      |
+
+
+KPIs 2 : Network
+|  No.| Name               | Tool     | Status   |
+|-----| ------------------ | -------- | -------- |
+| 1   | Normal transaction | End-end  | TBD      |
+| 2   | Smart contract call| End-end  | TBD      |
+| 3   | Memory consumption | perf, memtrace, core_bench  | TBD      |
+| 4   | Minimal block times | End-end  | TBD      |
+| 5   | State hash function | core_bench, perf  | TBD      |
+| 6   | State hash with parallel | core_bench, perf  | TBD      |
+| 7   | Verify signatures | core_bench, perf  | TBD      |
+| 8   | Accounts, tickets | End-end, core_bench  | TBD      |
+| 9   | Validators on different hardware | End-end  | TBD      |
+
+KPIs 3: profiling
+
+| No. | Name               | Tool     | Status   |
+| ----| ------------------ | -------- | -------- |
+| 1   | Start validator | profiling  | TBD      |
+| 2   | Validate operations | profiling  | TBD      |
+
+
+---
+
 **Notes**: These KPIs are **not** ordered by priority
 
 :bomb: Deadline: 13-May-2022
@@ -28,7 +67,7 @@ For transactions, there are two kinds of transactions we are taking into account
 - Smart contract call (A call a smart contract C)
 
 Deku run on RAM and reply on hardware to run and store states.
-    
+
 ---
 
 # KPIs 1: Locally
@@ -93,42 +132,6 @@ The senario can be:
     - if I increase the number of validators how fast or slow is that? 
 
 ---
-
-Tables summary KPIs
-
-KPIs 1: Local
-
-| No. | Name               | Tool     | Status   |
-| ----| ------------------ | -------- | -------- |
-| 1   | Normal transaction | End-end  | TBD      |
-| 2   | Smart contract call| End-end  | TBD      |
-| 3   | Memory consumption | perf, memtrace, core_bench  | TBD      |
-| 4   | Minimal block times | End-end  | TBD      |
-| 5   | State hash function | core_bench, perf  | TBD      |
-| 6   | State hash with parallel | core_bench, perf  | TBD      |
-| 7   | Verify signatures | core_bench, perf  | TBD      |
-| 8   | Accounts, tickets | End-end, core_bench  | TBD      |
-
-
-KPIs 2 : Network
-|  No.| Name               | Tool     | Status   |
-|-----| ------------------ | -------- | -------- |
-| 1   | Normal transaction | End-end  | TBD      |
-| 2   | Smart contract call| End-end  | TBD      |
-| 3   | Memory consumption | perf, memtrace, core_bench  | TBD      |
-| 4   | Minimal block times | End-end  | TBD      |
-| 5   | State hash function | core_bench, perf  | TBD      |
-| 6   | State hash with parallel | core_bench, perf  | TBD      |
-| 7   | Verify signatures | core_bench, perf  | TBD      |
-| 8   | Accounts, tickets | End-end, core_bench  | TBD      |
-| 9   | Validators on different hardware | End-end  | TBD      |
-
-KPIs 3: profiling
-
-| No. | Name               | Tool     | Status   |
-| ----| ------------------ | -------- | -------- |
-| 1   | Start validator | profiling  | TBD      |
-| 2   | Validate operations | profiling  | TBD      |
 
 
 
