@@ -1,20 +1,29 @@
 
 # KPIs: Key Performance Indicators for benchmarking Deku, more specifically the Tendermint consensus
 
+**Notes**: These KPIs are **not** ordered by priority
+TODO: Prioritization order should be:
+* end to end load testing (including TPS)
+* performance profiling
+* micro-benchmarking
+
+:bomb: Deadline: 13-May-2022
+
 ## Summary of KPIs
 
 KPIs 1: Local
 
 | No. | Name               | Tool     | Status   |
 | ----| ------------------ | -------- | -------- |
-| 1   | Normal transaction | End-end  | TBD      |
-| 2   | Smart contract call| End-end  | TBD      |
-| 3   | Memory consumption | perf, memtrace, core_bench  | TBD      |
-| 4   | Minimal block times | End-end  | TBD      |
-| 5   | State hash function | core_bench, perf  | TBD      |
-| 6   | State hash with parallel | core_bench, perf  | TBD      |
-| 7   | Verify signatures | core_bench, perf  | TBD      |
-| 8   | Accounts, tickets | End-end, core_bench  | TBD      |
+| 1   | [TPS, gas-based, tech-based](https://research-development.nomadic-labs.com/tps-evaluation.html) | prometheus, profiling | TBD (top priority) | 
+| 2   | Normal transaction | End-end  | TBD      |
+| 3   | Smart contract call| End-end  | TBD      |
+| 4   | Memory consumption | perf, memtrace, core_bench  | TBD      |
+| 5   | Minimal block times | End-end  | TBD      |
+| 6   | State hash function | core_bench, perf  | TBD      |
+| 7   | State hash with parallel | core_bench, perf  | TBD      |
+| 8   | Verify signatures | core_bench, perf  | TBD      |
+| 9   | Accounts, tickets | End-end, core_bench  | TBD      |
 
 
 KPIs 2 : Network
@@ -39,10 +48,6 @@ KPIs 3: profiling
 
 
 ---
-
-**Notes**: These KPIs are **not** ordered by priority
-
-:bomb: Deadline: 13-May-2022
 
 Tendermint achieves consensus with 3 steps process (Proposal, Prevote, Precommit) and works in rounds.
 
@@ -125,15 +130,15 @@ The senario can be:
 
 ---
 
-# KPIs 3: Profiling the process of start, stop, validate a Deku's node
+# KPIs 3: Profiling 
+- We **should** run profiling during our end to end tests, and during TPS estimation in order to find obvious bottlenecks.
+- We **shouldn't** initially run profiling on individual functions. We **should** initially run profiling on actions we would expect a user to take. 
 - how long does it take to start a validator
 - how long for a validator to:
     - validate operations (deposits, transfers, withdrawals)?
     - if I increase the number of validators how fast or slow is that? 
 
 ---
-
-
 
 
 
