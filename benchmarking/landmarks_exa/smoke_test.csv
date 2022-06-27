@@ -1,0 +1,14 @@
+deku-sandbox: unknown command 'smoke_test', did you mean 'smoke-test'?
+Usage: deku-sandbox COMMAND …
+Try 'deku-sandbox --help' for more information.
+Call graph '_build/default/src/bin/deku_sandbox.exe smoke_test':
+----------------------------------------------------------------
+[  315.48K cycles in 1 calls ]     - 87.63% : [1;31mload(deku_sandbox)[0m
+
+Note: Nodes accounting for less than 1.00% of their parent have been ignored.
+
+Aggregated table:
+----------------
+              Name;                  Filename;    Calls;     Time
+              ROOT;           src/landmark.ml;        0;  360.01K
+load(deku_sandbox); src/bin/deku_sandbox.ml:1;        1;  315.48K

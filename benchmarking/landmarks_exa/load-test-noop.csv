@@ -1,0 +1,16 @@
+load-test-noop: required argument ticketer is missing
+Usage: load-test-noop [OPTION]… ticketer
+Try 'load-test-noop --help' for more information.
+Call graph '_build/default/tests/e2e/load_test_noop_main.exe':
+--------------------------------------------------------------
+[  127.05K cycles in 1 calls ]     - 78.96% : [1;31mload(load_test_noop_main)[0m
+
+Note: Nodes accounting for less than 1.00% of their parent have been ignored.
+
+Aggregated table:
+----------------
+                     Name;                                      Filename;    Calls;     Time
+                     ROOT;                               src/landmark.ml;        0;  160.90K
+load(load_test_noop_main);            tests/e2e/load_test_noop_main.ml:1;        1;  127.05K
+     load(load_test_noop); tests/e2e/bench_landmarks/load_test_noop.ml:1;        1;  326.00 
+   Load_test_noop_main._n;           tests/e2e/load_test_noop_main.ml:12;        1;  150.00 
