@@ -1,0 +1,127 @@
+qcheck random seed: 189741618
+Testing `Lambda VM'.
+This run has ID `6XRM8IE7'.
+
+  [OK]          Compilation and execution errors          0   Compilation - U...
+  [OK]          Compilation and execution errors          1   Fst - Value sho...
+  [OK]          Compilation and execution errors          2   Snd - Value sho...
+  [OK]          Compilation and execution errors          3   Neg - Value sho...
+  [OK]          Compilation and execution errors          4   Op2 - Value sho...
+  [OK]          Compilation and execution errors          5   If - Value shou...
+  [OK]          Compilation and execution errors          6   Value is not a ...
+  [OK]          Execution pattern errors                  0   Pattern 1 - Val...
+  [OK]          Execution pattern errors                  1   Pattern 2 - Val...
+  [OK]          Execution pattern errors                  2   Pattern 3 - Val...
+  [OK]          Execution pattern errors                  3   Pattern 4 - Val...
+  [OK]          Primitive operations                      0   Adding pairs.
+  [OK]          Primitive operations                      1   Subtracting pairs.
+  [OK]          Primitive operations                      2   Multiplying pairs.
+  [OK]          Primitive operations                      3   Dividing pairs.
+  [OK]          Primitive operations                      4   Modulo pairs.
+  [OK]          Primitive operations                      5   Anding pairs.
+  [OK]          Primitive operations                      6   Oring pairs.
+  [OK]          Primitive operations                      7   Xoring pairs.
+  [OK]          Primitive operations                      8   Negative numbers.
+  [OK]          Primitive operations                      9   Left shifting p...
+  [OK]          Primitive operations                     10   Logical right s...
+  [OK]          Primitive operations                     11   Right shifting ...
+  [OK]          Recursion                                 0   Recursion with ...
+  [OK]          Recursion                                 1   Fibonacci.
+  [OK]          Recursion                                 2   Counter.
+  [OK]          Recursion                                 3   Stack limit.
+  [OK]          Recursion                                 4   Infinite recurs...
+  [OK]          Recursion                                 5   Infinite recurs...
+  [OK]          Simple with simple expressions            0   Increment.
+  [OK]          Simple with simple expressions            1   Decrement.
+  [OK]          Simple with simple expressions            2   Add pair.
+  [OK]          Simple with simple expressions            3   If expr.
+  [OK]          Simple with simple expressions            4   Lambda.
+  [OK]          Simple with simple expressions            5   Lambda applicat...
+  [OK]          Gas model                                 0   Compile value.
+  [OK]          Gas model                                 1   Compile AST.
+  [OK]          Gas model                                 2   Execute IR.
+  [OK]          Test IO                                   0   Sender.
+  [OK]          Vote contract                             0   Vote.
+  [OK]          Vote contract                             1   No second vote.
+  [OK]          Vote contract                             2   Admin vote.
+  [OK]          Vote contract                             3   Contract paused.
+  [OK]          Vote contract                             4   Auto pause.
+  [OK]          Vote contract                             5   Reset.
+  [OK]          Vote contract                             6   Reset not admin.
+  [OK]          Vote contract                             7   Get result.
+Call graph '_build/default/tests/vm/test_vm.exe':
+-------------------------------------------------
+[   15.17G cycles in      1 calls ]     - 100.00% : [0;33mload(test_vm)[0m
+[   12.24G cycles in 131100 calls ]     |   - 80.69% : Vm_test.execute_ast_exn
+[   12.07G cycles in 131100 calls ]     |   |   - 98.60% : [1;31mVm_test.execute_exn[0m
+[    2.40G cycles in      1 calls ]     |   - 15.81% : Test_recursion.test_z_combinator
+[    2.40G cycles in      1 calls ]     |   |   - 100.00% : [1;31mVm_test.execute_ast[0m
+
+Note: Nodes accounting for less than 1.00% of their parent have been ignored.
+
+Aggregated table:
+----------------
+                                           Name;                             Filename;    Calls;     Time
+                                           ROOT;                      src/landmark.ml;        0;   15.18G
+                                  load(test_vm);                tests/vm/test_vm.ml:1;        1;   15.17G
+                        Vm_test.execute_ast_exn;               tests/vm/vm_test.ml:26;   131118;   12.25G
+                            Vm_test.execute_exn;               tests/vm/vm_test.ml:19;   131119;   12.08G
+                            Vm_test.execute_ast;               tests/vm/vm_test.ml:33;       14;    2.42G
+               Test_recursion.test_z_combinator;       tests/vm/test_recursion.ml:114;        1;    2.40G
+                            Vm_test.compile_exn;                tests/vm/vm_test.ml:9;   131120;   78.03M
+                      Vm_test.compile_value_exn;               tests/vm/vm_test.ml:14;   262234;   35.35M
+                Test_recursion.test_stack_limit;        tests/vm/test_recursion.ml:94;        1;   19.73M
+                           Test_prim.script_op2;              tests/vm/test_prim.ml:9;   110000;   13.61M
+               Test_recursion.test_y_combinator;       tests/vm/test_recursion.ml:104;        1;    4.71M
+                       Test_gas.test_execute_ir;              tests/vm/test_gas.ml:30;        1;    4.03M
+              Test_voting_contract.run_contract; tests/vm/test_voting_contract.ml:129;        9;    1.42M
+                           Test_prim.script_op1;             tests/vm/test_prim.ml:13;    10000;  895.89K
+                Test_voting_contract.test_reset; tests/vm/test_voting_contract.ml:275;        1;  533.67K
+      Test_voting_contract.test_contract_paused; tests/vm/test_voting_contract.ml:212;        1;  439.51K
+           Test_voting_contract.value_of_string;   tests/vm/test_voting_contract.ml:3;      103;  365.27K
+              Test_errors.check_execution_error;            tests/vm/test_errors.ml:9;       10;  363.82K
+                 Test_voting_contract.test_draw; tests/vm/test_voting_contract.ml:361;        1;  300.67K
+           Test_voting_contract.test_auto_pause; tests/vm/test_voting_contract.ml:237;        1;  289.06K
+           Test_voting_contract.test_get_result; tests/vm/test_voting_contract.ml:323;        1;  282.44K
+                                load(test_prim);              tests/vm/test_prim.ml:1;        1;  197.60K
+             Test_recursion.check_runtime_error;        tests/vm/test_recursion.ml:84;        3;  182.01K
+                        Test_prim.make_op2_test;             tests/vm/test_prim.ml:17;       11;  165.18K
+       Test_voting_contract.test_no_second_vote; tests/vm/test_voting_contract.ml:190;        1;  162.20K
+           Test_voting_contract.test_admin_vote; tests/vm/test_voting_contract.ml:202;        1;  157.08K
+                 Test_voting_contract.test_vote; tests/vm/test_voting_contract.ml:178;        1;  134.53K
+                            Test_io.test_sender;               tests/vm/test_io.ml:27;        1;  134.32K
+      Test_voting_contract.test_reset_not_admin; tests/vm/test_voting_contract.ml:299;        1;  110.24K
+    Test_errors.test_pattern4_value_is_not_zero;           tests/vm/test_errors.ml:88;        1;  101.04K
+Test_errors.test_compilation_undefined_variable;           tests/vm/test_errors.ml:27;        1;   81.92K
+         Test_errors.test_snd_value_is_not_pair;           tests/vm/test_errors.ml:39;        1;   81.63K
+         Test_errors.test_fst_value_is_not_pair;           tests/vm/test_errors.ml:33;        1;   73.04K
+        Test_errors.test_op2_value_is_not_int64;           tests/vm/test_errors.ml:51;        1;   60.89K
+        Test_errors.test_neg_value_is_not_int64;           tests/vm/test_errors.ml:45;        1;   60.10K
+         Test_errors.test_value_is_not_function;           tests/vm/test_errors.ml:64;        1;   57.03K
+    Test_errors.test_pattern3_value_is_not_zero;           tests/vm/test_errors.ml:82;        1;   55.07K
+         Test_errors.test_if_value_is_not_int64;           tests/vm/test_errors.ml:57;        1;   53.66K
+    Test_errors.test_pattern1_value_is_not_pair;           tests/vm/test_errors.ml:70;        1;   53.12K
+                   Test_simple_expr.test_lambda;      tests/vm/test_simple_expr.ml:57;        1;   52.18K
+                Test_simple_expr.test_increment;       tests/vm/test_simple_expr.ml:9;        1;   51.70K
+    Test_errors.test_pattern2_value_is_not_pair;           tests/vm/test_errors.ml:76;        1;   51.17K
+                  Test_simple_expr.test_if_expr;      tests/vm/test_simple_expr.ml:34;        1;   43.92K
+            Test_errors.check_compilation_error;           tests/vm/test_errors.ml:18;        1;   39.59K
+                           load(test_recursion);         tests/vm/test_recursion.ml:1;        1;   34.83K
+                              load(test_errors);            tests/vm/test_errors.ml:1;        1;   33.34K
+                 Test_simple_expr.test_add_pair;      tests/vm/test_simple_expr.ml:23;        1;   29.73K
+                Test_simple_expr.test_decrement;      tests/vm/test_simple_expr.ml:16;        1;   27.72K
+       Test_simple_expr.test_lambda_application;      tests/vm/test_simple_expr.ml:85;        1;   27.22K
+                                 load(test_gas);               tests/vm/test_gas.ml:1;        1;   20.57K
+                         load(test_simple_expr);       tests/vm/test_simple_expr.ml:1;        1;   20.47K
+                    Test_gas.test_compile_value;              tests/vm/test_gas.ml:18;        1;   16.52K
+                      Test_gas.test_compile_ast;              tests/vm/test_gas.ml:23;        1;   13.43K
+             Test_voting_contract.empty_storage; tests/vm/test_voting_contract.ml:136;        3;    3.99K
+                                  load(vm_test);                tests/vm/vm_test.ml:1;        1;    1.50K
+         Test_voting_contract.storage_with_vote; tests/vm/test_voting_contract.ml:142;        1;  856.00 
+                      Test_voting_contract.vote; tests/vm/test_voting_contract.ml:150;        7;  566.00 
+                     load(test_voting_contract);   tests/vm/test_voting_contract.ml:1;        1;  214.00 
+                                  load(test_io);                tests/vm/test_io.ml:1;        1;  186.00 
+  [OK]          Vote contract                             8   Draw.
+
+Full test results in `~/deku/_build/_tests/Lambda VM'.
+Test Successful in 7.184s. 48 tests run.

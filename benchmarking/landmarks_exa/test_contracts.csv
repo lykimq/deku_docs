@@ -1,0 +1,61 @@
+Testing `Contracts_lambda'.
+This run has ID `UD5CMJLT'.
+
+  [OK]          Origination          0   Origination should succeed.
+  [OK]          Origination          1   Dummy origination should succeed.
+  [OK]          Invocation           0   contract storage changes.
+  [OK]          Invocation           1   contract storage doesnt change when ...
+  [OK]          Invocation           2   contract storage changes when dummy ...
+Call graph '_build/default/tests/contracts/test_contracts.exe':
+---------------------------------------------------------------
+[    3.46M cycles in 1 calls ]     - 59.37% : [1;31mload(test_contracts)[0m
+[    1.68M cycles in 1 calls ]     - 28.82% : load(test_invocation)
+[  456.84K cycles in 1 calls ]     |   - 27.24% : [0;31mTest_invocation.test_dummy_failure[0m
+[  367.86K cycles in 1 calls ]     |   |   - 80.52% : [0;31mHelpers_contracts.setup[0m
+[  128.02K cycles in 1 calls ]     |   |   |   - 34.80% : [0;31mHelpers_contracts.make_tezos_address[0m
+[    8.69K cycles in 1 calls ]     |   |   |   -  2.36% : Helpers_contracts.make_ticket
+[  423.74K cycles in 1 calls ]     |   - 25.26% : [0;31mTest_invocation.test_failure[0m
+[  285.48K cycles in 1 calls ]     |   |   - 67.37% : [0;31mHelpers_contracts.setup[0m
+[  107.79K cycles in 1 calls ]     |   |   |   - 37.76% : [0;31mHelpers_contracts.make_tezos_address[0m
+[    6.69K cycles in 1 calls ]     |   |   |   -  2.34% : Helpers_contracts.make_ticket
+[  416.10K cycles in 1 calls ]     |   - 24.81% : [0;31mTest_invocation.test_ok[0m
+[  282.98K cycles in 1 calls ]     |   |   - 68.01% : [0;31mHelpers_contracts.setup[0m
+[  104.22K cycles in 1 calls ]     |   |   |   - 36.83% : [0;31mHelpers_contracts.make_tezos_address[0m
+[    6.61K cycles in 1 calls ]     |   |   |   -  2.33% : Helpers_contracts.make_ticket
+[  370.84K cycles in 1 calls ]     |   - 22.11% : [0;33mTest_invocation.test_dummy_ok[0m
+[  295.54K cycles in 1 calls ]     |   |   - 79.70% : [0;31mHelpers_contracts.setup[0m
+[  112.23K cycles in 1 calls ]     |   |   |   - 37.98% : [0;31mHelpers_contracts.make_tezos_address[0m
+[    3.86K cycles in 1 calls ]     |   |   |   -  1.31% : Helpers_contracts.make_ticket
+[  625.45K cycles in 1 calls ]     - 10.75% : load(test_origination)
+[  313.64K cycles in 1 calls ]     |   - 50.15% : [0;31mTest_origination.test[0m
+[  273.55K cycles in 1 calls ]     |   |   - 87.22% : [1;31mHelpers_contracts.setup[0m
+[  107.32K cycles in 1 calls ]     |   |   |   - 39.23% : [1;31mHelpers_contracts.make_tezos_address[0m
+[    3.04K cycles in 1 calls ]     |   |   |   -  1.11% : Helpers_contracts.make_ticket
+[  305.49K cycles in 1 calls ]     |   - 48.84% : [0;33mTest_origination.test_dummy[0m
+[  282.20K cycles in 1 calls ]     |   |   - 92.38% : [1;31mHelpers_contracts.setup[0m
+[  104.71K cycles in 1 calls ]     |   |   |   - 37.11% : [1;31mHelpers_contracts.make_tezos_address[0m
+[    6.49K cycles in 1 calls ]     |   |   |   -  2.30% : [0;33mHelpers_contracts.make_ticket[0m
+
+Note: Nodes accounting for less than 1.00% of their parent have been ignored.
+
+Aggregated table:
+----------------
+                                Name;                                Filename;    Calls;     Time
+                                ROOT;                         src/landmark.ml;        0;    5.82M
+                load(test_contracts);     tests/contracts/test_contracts.ml:1;        1;    3.46M
+             Helpers_contracts.setup; tests/contracts/helpers_contracts.ml:30;        6;    1.79M
+               load(test_invocation);    tests/contracts/test_invocation.ml:1;        1;    1.68M
+Helpers_contracts.make_tezos_address; tests/contracts/helpers_contracts.ml:23;        6;  664.30K
+              load(test_origination);   tests/contracts/test_origination.ml:1;        1;  625.45K
+  Test_invocation.test_dummy_failure;  tests/contracts/test_invocation.ml:121;        1;  456.84K
+        Test_invocation.test_failure;   tests/contracts/test_invocation.ml:48;        1;  423.74K
+             Test_invocation.test_ok;    tests/contracts/test_invocation.ml:5;        1;  416.10K
+       Test_invocation.test_dummy_ok;   tests/contracts/test_invocation.ml:88;        1;  370.84K
+               Test_origination.test;   tests/contracts/test_origination.ml:5;        1;  313.64K
+         Test_origination.test_dummy;  tests/contracts/test_origination.ml:28;        1;  305.49K
+       Helpers_contracts.make_ticket;  tests/contracts/helpers_contracts.ml:4;        6;   35.37K
+             load(helpers_contracts);  tests/contracts/helpers_contracts.ml:1;        1;  340.00 
+  [OK]          Invocation           3   contract invocation for dummy should...
+
+Full test results in `~/deku/_build/_tests/Contracts_lambda'.
+Test Successful in 0.001s. 6 tests run.

@@ -1,0 +1,32 @@
+Running 15 test suites
+[7m[1m[33m RUNS [27m[22m[39m [97mvalidators[39m[55D[K[7m[1m[32m PASS [27m[22m[39m [97mvalidators[39m
+[7m[1m[33m RUNS [27m[22m[39m [97mkey[39m[48D[K[7m[1m[32m PASS [27m[22m[39m [97mkey[39m
+[7m[1m[33m RUNS [27m[22m[39m [97mkey_hash[39m[53D[K[7m[1m[32m PASS [27m[22m[39m [97mkey_hash[39m
+[7m[1m[33m RUNS [27m[22m[39m [97msecret[39m[51D[K[7m[1m[32m PASS [27m[22m[39m [97msecret[39m
+[7m[1m[33m RUNS [27m[22m[39m [97msignature[39m[54D[K[7m[1m[32m PASS [27m[22m[39m [97msignature[39m
+[7m[1m[33m RUNS [27m[22m[39m [97mcontract_hash[39m[58D[K[7m[1m[32m PASS [27m[22m[39m [97mcontract_hash[39m
+[7m[1m[33m RUNS [27m[22m[39m [97maddress[39m[52D[K[7m[1m[32m PASS [27m[22m[39m [97maddress[39m
+[7m[1m[33m RUNS [27m[22m[39m [97mticket[39m[51D[K[7m[1m[32m PASS [27m[22m[39m [97mticket[39m
+[7m[1m[33m RUNS [27m[22m[39m [97moperation_hash[39m[59D[K[7m[1m[32m PASS [27m[22m[39m [97moperation_hash[39m
+[7m[1m[33m RUNS [27m[22m[39m [97moperation forging[39m[62D[K[7m[1m[32m PASS [27m[22m[39m [97moperation forging[39m
+[7m[1m[33m RUNS [27m[22m[39m [97mpack[39m[49D[K[7m[1m[32m PASS [27m[22m[39m [97mpack[39m
+[7m[1m[33m RUNS [27m[22m[39m [97mconsensus[39m[54D[K[7m[1m[32m PASS [27m[22m[39m [97mconsensus[39m
+[7m[1m[33m RUNS [27m[22m[39m [97mdiscovery[39m[54D[K[7m[1m[32m PASS [27m[22m[39m [97mdiscovery[39m
+[7m[1m[33m RUNS [27m[22m[39m [97mledger[39m[51D[K[7m[1m[32m PASS [27m[22m[39m [97mledger[39m
+[7m[1m[33m RUNS [27m[22m[39m [97mincremental Patricia[39m[65D[K[7m[1m[32m PASS [27m[22m[39m [97mincremental Patricia[39m
+
+[1m[97mTest Suites: [22m[39m0 failed, [1m[32m15 passed[22m[39m, 15 total
+[1m[97mTests:       [22m[39m0 failed, [1m[32m80 passed[22m[39m, 80 total
+[1m[97mTime:        [22m[39m0.031s
+
+Call graph '_build/default/tests/Test_runner.exe':
+--------------------------------------------------
+[   65.95M cycles in 1 calls ]     - 99.96% : [1;31mload(test_runner)[0m
+
+Note: Nodes accounting for less than 1.00% of their parent have been ignored.
+
+Aggregated table:
+----------------
+             Name;               Filename;    Calls;     Time
+             ROOT;        src/landmark.ml;        0;   65.98M
+load(test_runner); tests/test_runner.ml:1;        1;   65.95M

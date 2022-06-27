@@ -1,0 +1,75 @@
+[35m[1m**************************    Running in local mode    ********************************[0m
+Node is bootstrapped.
+Estimated gas: 4681.474 units (will add 100 for safety)
+Estimated storage: 104 bytes added (will add 20 for safety)
+Operation successfully injected in the node.
+Operation hash is 'oomrsKhVHNKtUhwW3kp9kJcZsmAczY4kTteEBtyAJDz5L3wwv9M'
+Waiting for the operation to be included...
+Operation found in block: BKnMsGDtkt73GDbAFuCtNUSgeAXpAQ8WqoW8fLG4qzPytrrT7W4 (pass: 3, offset: 0)
+This sequence of operations was run:
+  Manager signed operations:
+    From: tz1aSkwEot3L2kmUvcoxzjMomb9mvBNuzFK6
+    Fee to the baker: ꜩ0.000841
+    Expected counter: 26
+    Gas limit: 4782
+    Storage limit: 124 bytes
+    Balance updates:
+      tz1aSkwEot3L2kmUvcoxzjMomb9mvBNuzFK6 ............... -ꜩ0.000841
+      fees(tz1YPSCGWXwBdTncK2aCctSZAXWvGsGwVJqU,16886) ... +ꜩ0.000841
+    Transaction:
+      Amount: ꜩ0
+      From: tz1aSkwEot3L2kmUvcoxzjMomb9mvBNuzFK6
+      To: KT1Ec9WDaFwfvenKxNELQnRysaGm595BDf8N
+      Entrypoint: mint_to_deku
+      Parameter: (Pair (Pair "KT1NvCdgVnszLWyBoPGv1H56s3Bpeq9kgPbD" "tz1RPNjHPWuM8ryS5LDttkHdM321t85dSqaf")
+                       (Pair 100 0x))
+      This transaction was successfully applied
+      Updated storage: Unit
+      Storage size: 796 bytes
+      Consumed gas: 2865.196
+    Internal operations:
+      Transaction:
+        Amount: ꜩ0
+        From: KT1Ec9WDaFwfvenKxNELQnRysaGm595BDf8N
+        To: KT1NvCdgVnszLWyBoPGv1H56s3Bpeq9kgPbD
+        Entrypoint: deposit
+        Parameter: (Pair 0x00003f0b3dd85deb3013c6a239fe9e3783ace4f8e37c
+                         (Pair 0x0142137bf9a8bede3e62d35df2028c3fe911c9657100 (Pair 0x 100)))
+        This transaction was successfully applied
+        Updated storage:
+          (Pair (Pair (Pair (Pair 0xdcfd3a20f79e7b866abcaf68bb95ff15cafa7dad768d305435bded2fbfbb71a7 170)
+                            (Pair 0x82f56350f9cac1d3e604fafef83555dcdc2a5180e296f57508448ced96b5f247
+                                  0xe7ea0c4b77b0aeff3e7463010bb24b6de4d1664161a703a8b570581de597a587))
+                      { 0x007d755a2637407b56e53edb397f513e991eaef3e6 ;
+                        0x00fde3d9bab49c817173c748827313fb0a5adcc150 ;
+                        0x004b3821618db1c6f7d68e96aa13d15188cbd84eb9 })
+                (Pair (Pair 100 101) 102))
+        Updated big_maps:
+          Set map(102)[(Pair 0x0142137bf9a8bede3e62d35df2028c3fe911c9657100 0x)] to (Pair 0x0142137bf9a8bede3e62d35df2028c3fe911c9657100 (Pair 0x 100))
+        Storage size: 4967 bytes
+        Paid storage size diff: 104 bytes
+        Consumed gas: 1816.278
+        Balance updates:
+          tz1aSkwEot3L2kmUvcoxzjMomb9mvBNuzFK6 ... -ꜩ0.026
+
+The operation has only been included 0 blocks ago.
+We recommend to wait more.
+Use command
+  tezos-client wait for oomrsKhVHNKtUhwW3kp9kJcZsmAczY4kTteEBtyAJDz5L3wwv9M to be included --confirmations 5 --branch BLhxsU8LQG8DBJfvQtt1b8ivtazSPDm5uXEnjvQ99E99SoGQMgp
+and/or an external block explorer.
+Call graph '_build/default/src/bin/deku_sandbox.exe deposit-dummy-ticket':
+--------------------------------------------------------------------------
+[    5.34G cycles in 1 calls ]     - 100.00% : load(deku_sandbox)
+[    5.34G cycles in 1 calls ]     |   - 100.00% : Deku_sandbox.deposit_dummy_ticket
+[    5.34G cycles in 1 calls ]     |   |   - 100.00% : [1;31mDeku_sandbox.run_ret[0m
+
+Note: Nodes accounting for less than 1.00% of their parent have been ignored.
+
+Aggregated table:
+----------------
+                             Name;                    Filename;    Calls;     Time
+                             ROOT;             src/landmark.ml;        0;    5.34G
+               load(deku_sandbox);   src/bin/deku_sandbox.ml:1;        1;    5.34G
+Deku_sandbox.deposit_dummy_ticket; src/bin/deku_sandbox.ml:305;        1;    5.34G
+             Deku_sandbox.run_ret;  src/bin/deku_sandbox.ml:12;        1;    5.34G
+      Deku_sandbox.mode_to_string;  src/bin/deku_sandbox.ml:34;        1;  320.00 

@@ -1,0 +1,1084 @@
+[35m[1m**************************    Running in local mode    ********************************[0m
+Starting nodes.
+(node:737811) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:737812) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:737810) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+deku-node: [DEBUG] js.message: {
+              "status": "success",
+              "storage": {
+                "prim": "Pair",
+                "args": [
+                  { "prim": "Pair",
+                  "args": [
+                    { "prim": "Pair",
+                    "args": [
+                      { "prim": "Pair",
+                      "args": [
+                        {
+                        "bytes": "53bd5f28bf13362a8e7e0976e8dc84c9eeb86dbcd9ee6d53ecf33274e7956e00"
+                      }, { "int": "131" }
+                      ] }, {
+                      "bytes": "0e5751c026e543b2e8ab2eb06099daa1d1e5df47778f7787faab45cdf12fe3a8"
+                    }, {
+                      "bytes": "b99bdd3bd527ed1ca2278c5d4b4c1e554e883ccabf6dbbea6a21a8bbd7a2ea06"
+                    }
+                    ] }, [
+                    { "string": "tz1X5PjsJGY4A4mHcarbCWkmAtGNcVQzkBMc" }, {
+                    "string": "tz1inUbyxps1mTiDN9XCaA14ahmC9t83gppw" }, {
+                    "string": "tz1SVkcWodGH83SYQDZuzjgBGCdxdc8LEW9L" } ]
+                  ] }, { "prim": "Pair",
+                  "args": [ { "int": "100" }, { "int": "101" } ] }, {
+                  "int": "102" }
+                ]
+              }
+            }
+deku-node: [DEBUG] js.message: {
+              "status": "success",
+              "storage": {
+                "prim": "Pair",
+                "args": [
+                  { "prim": "Pair",
+                  "args": [
+                    { "prim": "Pair",
+                    "args": [
+                      { "prim": "Pair",
+                      "args": [
+                        {
+                        "bytes": "53bd5f28bf13362a8e7e0976e8dc84c9eeb86dbcd9ee6d53ecf33274e7956e00"
+                      }, { "int": "131" }
+                      ] }, {
+                      "bytes": "0e5751c026e543b2e8ab2eb06099daa1d1e5df47778f7787faab45cdf12fe3a8"
+                    }, {
+                      "bytes": "b99bdd3bd527ed1ca2278c5d4b4c1e554e883ccabf6dbbea6a21a8bbd7a2ea06"
+                    }
+                    ] }, [
+                    { "string": "tz1X5PjsJGY4A4mHcarbCWkmAtGNcVQzkBMc" }, {
+                    "string": "tz1inUbyxps1mTiDN9XCaA14ahmC9t83gppw" }, {
+                    "string": "tz1SVkcWodGH83SYQDZuzjgBGCdxdc8LEW9L" } ]
+                  ] }, { "prim": "Pair",
+                  "args": [ { "int": "100" }, { "int": "101" } ] }, {
+                  "int": "102" }
+                ]
+              }
+            }
+deku-node: [DEBUG] js.message: {
+              "status": "success",
+              "storage": {
+                "prim": "Pair",
+                "args": [
+                  { "prim": "Pair",
+                  "args": [
+                    { "prim": "Pair",
+                    "args": [
+                      { "prim": "Pair",
+                      "args": [
+                        {
+                        "bytes": "53bd5f28bf13362a8e7e0976e8dc84c9eeb86dbcd9ee6d53ecf33274e7956e00"
+                      }, { "int": "131" }
+                      ] }, {
+                      "bytes": "0e5751c026e543b2e8ab2eb06099daa1d1e5df47778f7787faab45cdf12fe3a8"
+                    }, {
+                      "bytes": "b99bdd3bd527ed1ca2278c5d4b4c1e554e883ccabf6dbbea6a21a8bbd7a2ea06"
+                    }
+                    ] }, [
+                    { "string": "tz1X5PjsJGY4A4mHcarbCWkmAtGNcVQzkBMc" }, {
+                    "string": "tz1inUbyxps1mTiDN9XCaA14ahmC9t83gppw" }, {
+                    "string": "tz1SVkcWodGH83SYQDZuzjgBGCdxdc8LEW9L" } ]
+                  ] }, { "prim": "Pair",
+                  "args": [ { "int": "100" }, { "int": "101" } ] }, {
+                  "int": "102" }
+                ]
+              }
+            }
+deku-node: [DEBUG] js.message: {
+              "status": "success",
+              "values": [
+                "http://localhost:4440", "http://localhost:4441",
+                "http://localhost:4442"
+              ]
+            }
+deku-node: [INFO] block: 0
+deku-node: [INFO] New protocol snapshot hash: f8809bd69dcaa5c3cea52bdd7676c758d41b987cecb44c316871a24b002d2196
+deku-node: [INFO] Listening on port 4441
+deku-node: [DEBUG] js.message: {
+              "status": "success",
+              "values": [
+                "http://localhost:4440", "http://localhost:4441",
+                "http://localhost:4442"
+              ]
+            }
+deku-node: [INFO] block: 0
+deku-node: [INFO] New protocol snapshot hash: f8809bd69dcaa5c3cea52bdd7676c758d41b987cecb44c316871a24b002d2196
+deku-node: [INFO] Listening on port 4442
+deku-node: [DEBUG] js.message: {
+              "status": "success",
+              "values": [
+                "http://localhost:4440", "http://localhost:4441",
+                "http://localhost:4442"
+              ]
+            }
+deku-node: [INFO] block: 0
+deku-node: [INFO] New protocol snapshot hash: f8809bd69dcaa5c3cea52bdd7676c758d41b987cecb44c316871a24b002d2196
+deku-node: [INFO] Listening on port 4440
+Producing a block
+(node:737868) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:737901) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+close
+close
+Signing
+hash: ba69c15850b3d1b6c553d6a2d037c85bff04c5e71c33cfc6f4f30b3f0c7ebed8
+deku-node-0
+(node:737985) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+hash: ba69c15850b3d1b6c553d6a2d037c85bff04c5e71c33cfc6f4f30b3f0c7ebed8
+deku-node-1
+close
+(node:738017) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+deku-node: [INFO] block: 134
+deku-node: [INFO] block: 134
+deku-node: [INFO] block: 134
+hash: ba69c15850b3d1b6c553d6a2d037c85bff04c5e71c33cfc6f4f30b3f0c7ebed8
+deku-node-2
+close
+(node:738052) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+close
+deku-node: [INFO] block: 135
+deku-node: [INFO] block: 135
+deku-node: [INFO] block: 135
+deku-node: [INFO] New protocol snapshot hash: 74a7ed2727288e121ffcadbbe6a4c22d59720db061034e1d4bd11d25350250bc
+deku-node: [INFO] New protocol snapshot hash: 74a7ed2727288e121ffcadbbe6a4c22d59720db061034e1d4bd11d25350250bc
+deku-node: [INFO] New protocol snapshot hash: 74a7ed2727288e121ffcadbbe6a4c22d59720db061034e1d4bd11d25350250bc
+deku-node: [INFO] block: 136
+deku-node: [INFO] block: 136
+deku-node: [INFO] block: 136
+deku-node: [INFO] block: 137
+deku-node: [INFO] block: 137
+deku-node: [INFO] block: 137
+deku-node: [INFO] block: 138
+deku-node: [INFO] block: 138
+deku-node: [INFO] block: 138
+deku-node: [INFO] block: 139
+deku-node: [INFO] block: 139
+deku-node: [INFO] block: 139
+Node is bootstrapped.
+Estimated gas: 1465.808 units (will add 100 for safety)
+Estimated storage: 1053 bytes added (will add 20 for safety)
+Operation successfully injected in the node.
+Operation hash is 'oo7TSmAe7jfp5ecEoUyo4By35MDjfxz7ht9Q99HyTykH7Mpg7kT'
+Waiting for the operation to be included...
+deku-node: [INFO] block: 140
+deku-node: [INFO] block: 140
+deku-node: [INFO] block: 140
+Operation found in block: BLppGeBtQNkXkkXeR8dbJJg1d2CPd5Rf7cEj6M6byCu1x9zWPaY (pass: 3, offset: 0)
+This sequence of operations was run:
+  Manager signed operations:
+    From: tz1aSkwEot3L2kmUvcoxzjMomb9mvBNuzFK6
+    Fee to the baker: ꜩ0.00118
+    Expected counter: 22
+    Gas limit: 1566
+    Storage limit: 1073 bytes
+    Balance updates:
+      tz1aSkwEot3L2kmUvcoxzjMomb9mvBNuzFK6 ............... -ꜩ0.00118
+      fees(tz1YPSCGWXwBdTncK2aCctSZAXWvGsGwVJqU,16883) ... +ꜩ0.00118
+    Origination:
+      From: tz1aSkwEot3L2kmUvcoxzjMomb9mvBNuzFK6
+      Credit: ꜩ0
+      Script:
+        { parameter
+            (or (or (ticket %burn_callback bytes)
+                    (pair %mint_to_deku
+                       (pair (address %deku_consensus) (address %deku_recipient))
+                       (pair (nat %ticket_amount) (bytes %ticket_data))))
+                (pair %withdraw_from_deku
+                   (pair (address %deku_consensus)
+                         (pair %handle
+                            (pair (pair (nat %amount) (bytes %data)) (pair (nat %id) (address %owner)))
+                            (address %ticketer)))
+                   (pair (bytes %handles_hash) (list %proof (pair bytes bytes))))) ;
+          storage unit ;
+          code { CAR ;
+                 IF_LEFT
+                   { IF_LEFT
+                       { DROP ; UNIT ; NIL operation ; PAIR }
+                       { UNPAIR ;
+                         UNPAIR ;
+                         DIG 2 ;
+                         UNPAIR ;
+                         DIG 2 ;
+                         CONTRACT %deposit (pair (address %address) (ticket %ticket bytes)) ;
+                         IF_NONE { PUSH string "invalid deku consensus address" ; FAILWITH } {} ;
+                         PUSH mutez 0 ;
+                         DIG 2 ;
+                         DIG 3 ;
+                         TICKET ;
+                         DIG 3 ;
+                         PAIR ;
+                         TRANSFER_TOKENS ;
+                         UNIT ;
+                         NIL operation ;
+                         DIG 2 ;
+                         CONS ;
+                         PAIR } }
+                   { UNPAIR ;
+                     UNPAIR ;
+                     DIG 2 ;
+                     UNPAIR ;
+                     SELF %burn_callback ;
+                     DIG 3 ;
+                     CONTRACT %withdraw
+                       (pair (pair (contract %callback (ticket bytes))
+                                   (pair %handle
+                                      (pair (pair (nat %amount) (bytes %data)) (pair (nat %id) (address %owner)))
+                                      (address %ticketer)))
+                             (pair (bytes %handles_hash) (list %proof (pair bytes bytes)))) ;
+                     IF_NONE { PUSH string "invalid deku consensus address" ; FAILWITH } {} ;
+                     PUSH mutez 0 ;
+                     DIG 4 ;
+                     DIG 4 ;
+                     PAIR ;
+                     DIG 4 ;
+                     DIG 4 ;
+                     PAIR ;
+                     PAIR ;
+                     TRANSFER_TOKENS ;
+                     UNIT ;
+                     NIL operation ;
+                     DIG 2 ;
+                     CONS ;
+                     PAIR } } }
+        Initial storage: Unit
+        No delegate for this contract
+        This origination was successfully applied
+        Originated contracts:
+          KT1X9Dt7Q3bSKhLnwsW8qi1D4hsvQrbJBLue
+        Storage size: 796 bytes
+        Paid storage size diff: 796 bytes
+        Consumed gas: 1465.808
+        Balance updates:
+          tz1aSkwEot3L2kmUvcoxzjMomb9mvBNuzFK6 ... -ꜩ0.199
+          tz1aSkwEot3L2kmUvcoxzjMomb9mvBNuzFK6 ... -ꜩ0.06425
+
+New contract KT1X9Dt7Q3bSKhLnwsW8qi1D4hsvQrbJBLue originated.
+The operation has only been included 0 blocks ago.
+We recommend to wait more.
+Use command
+  tezos-client wait for oo7TSmAe7jfp5ecEoUyo4By35MDjfxz7ht9Q99HyTykH7Mpg7kT to be included --confirmations 5 --branch BMTGYfyHTz66TTnmqKeg56f7dketdAEf4J6Kr6Gf6zDoQ5nGbC3
+and/or an external block explorer.
+Contract memorized as dummy_ticket.
+deku-node: [INFO] block: 141
+deku-node: [INFO] block: 141
+deku-node: [INFO] block: 141
+deku-node: [INFO] block: 142
+deku-node: [INFO] block: 142
+deku-node: [INFO] block: 142
+deku-node: [INFO] block: 143
+deku-node: [INFO] block: 143
+deku-node: [INFO] block: 143
+deku-node: [INFO] block: 144
+deku-node: [INFO] block: 144
+deku-node: [INFO] block: 144
+  tezos-client wait for ookwoh5NmCpxVQkEtZgWjf2iSCVN579aKHEfiU5eRrNARN3a3k4 to be included --confirmations 5 --branch BLppGeBtQNkXkkXeR8dbJJg1d2CPd5Rf7cEj6M6byCu1x9zWPaY
+deku-node: [DEBUG] js.message: {
+              "hash": "ookwoh5NmCpxVQkEtZgWjf2iSCVN579aKHEfiU5eRrNARN3a3k4",
+              "transactions": [
+                { "entrypoint": "deposit",
+                "value": {
+                  "prim": "Pair",
+                  "args": [
+                    { "bytes": "00003f0b3dd85deb3013c6a239fe9e3783ace4f8e37c"
+                  }, { "prim": "Pair",
+                    "args": [
+                      {
+                      "bytes": "01f7760bb74e3ffba9e9fce67738856b98e349531200"
+                    }, { "prim": "Pair",
+                      "args": [ { "bytes": "" }, { "int": "100" } ] }
+                    ] }
+                  ]
+                } }
+              ]
+            }
+deku-node: [DEBUG] js.message: {
+              "hash": "ookwoh5NmCpxVQkEtZgWjf2iSCVN579aKHEfiU5eRrNARN3a3k4",
+              "transactions": [
+                { "entrypoint": "deposit",
+                "value": {
+                  "prim": "Pair",
+                  "args": [
+                    { "bytes": "00003f0b3dd85deb3013c6a239fe9e3783ace4f8e37c"
+                  }, { "prim": "Pair",
+                    "args": [
+                      {
+                      "bytes": "01f7760bb74e3ffba9e9fce67738856b98e349531200"
+                    }, { "prim": "Pair",
+                      "args": [ { "bytes": "" }, { "int": "100" } ] }
+                    ] }
+                  ]
+                } }
+              ]
+            }
+deku-node: [DEBUG] js.message: {
+              "hash": "ookwoh5NmCpxVQkEtZgWjf2iSCVN579aKHEfiU5eRrNARN3a3k4",
+              "transactions": [
+                { "entrypoint": "deposit",
+                "value": {
+                  "prim": "Pair",
+                  "args": [
+                    { "bytes": "00003f0b3dd85deb3013c6a239fe9e3783ace4f8e37c"
+                  }, { "prim": "Pair",
+                    "args": [
+                      {
+                      "bytes": "01f7760bb74e3ffba9e9fce67738856b98e349531200"
+                    }, { "prim": "Pair",
+                      "args": [ { "bytes": "" }, { "int": "100" } ] }
+                    ] }
+                  ]
+                } }
+              ]
+            }
+deku-node: [INFO] block: 145
+deku-node: [INFO] block: 145
+deku-node: [INFO] block: 145
+deku-node: [INFO] block: 146
+deku-node: [INFO] block: 146
+deku-node: [INFO] block: 146
+deku-node: [INFO] block: 147
+deku-node: [INFO] block: 147
+deku-node: [INFO] New protocol snapshot hash: 3466f6a00dcd643c2475c8645f279f5759b5e5bf85ef3b594faaf005776ea4c6
+deku-node: [INFO] block: 147
+deku-node: [INFO] New protocol snapshot hash: 3466f6a00dcd643c2475c8645f279f5759b5e5bf85ef3b594faaf005776ea4c6
+deku-node: [INFO] New protocol snapshot hash: 3466f6a00dcd643c2475c8645f279f5759b5e5bf85ef3b594faaf005776ea4c6
+deku-node: [INFO] block: 148
+deku-node: [INFO] block: 148
+deku-node: [INFO] block: 148
+deku-node: [DEBUG] js.message: {
+              "hash": "ono5AMG5rY4EkTNfXen1uBd2x16cHeRijSRSCN6mqUX3Wx8RYpH",
+              "transactions": [
+                { "entrypoint": "update_root_hash",
+                "value": {
+                  "prim": "Pair",
+                  "args": [
+                    { "prim": "Pair",
+                    "args": [
+                      { "prim": "Pair",
+                      "args": [
+                        { "int": "147" }, {
+                        "bytes": "cb3232ba121a8bedb089b5efc84caf70e07e92254c929c03cc5869958891a10d"
+                      }
+                      ] }, { "prim": "Pair",
+                      "args": [
+                        [
+                        { "prim": "Some",
+                        "args": [
+                          {
+                          "string": "edpkuenbD7x8YsYJ8k7DvDHDww6VHyFqgB8YGeSZAZ9id7uCp19mnF"
+                        }
+                        ] }, { "prim": "Some",
+                        "args": [
+                          {
+                          "string": "edpktqpVwTuXpb1zTeaoVeJw6TXZiFVp9tUSPXrSFknqKWqtjc8xY3"
+                        }
+                        ] }, { "prim": "None" } ], {
+                        "bytes": "0e5751c026e543b2e8ab2eb06099daa1d1e5df47778f7787faab45cdf12fe3a8"
+                      }
+                      ] }
+                    ] }, { "prim": "Pair",
+                    "args": [
+                      { "prim": "Pair",
+                      "args": [
+                        [
+                        { "prim": "Some",
+                        "args": [
+                          {
+                          "string": "edsigtie4mYJUGC1F1cMc2QLBZP7qtEuyVweLKKQw2ZFX9uYb3fR6NHu235MhMvi7BkfVM6QLj25RHwgq5KiSbgjm1TDr3HiNiH"
+                        }
+                        ] }, { "prim": "Some",
+                        "args": [
+                          {
+                          "string": "edsigtemhWdZMaHd9Ms2Y5ywq4bL3kEn1yjBd3dHxc5tQVxp3jYUwCeAzer79T3Z62kigPozWQwLes2Y4mVSfJtDfaEc8NMA2P3"
+                        }
+                        ] }, { "prim": "None" } ], {
+                        "bytes": "74a7ed2727288e121ffcadbbe6a4c22d59720db061034e1d4bd11d25350250bc"
+                      }
+                      ] }, [
+                      { "string": "tz1X5PjsJGY4A4mHcarbCWkmAtGNcVQzkBMc" }, {
+                      "string": "tz1inUbyxps1mTiDN9XCaA14ahmC9t83gppw" }, {
+                      "string": "tz1SVkcWodGH83SYQDZuzjgBGCdxdc8LEW9L" } ]
+                    ] }
+                  ]
+                } }
+              ]
+            }
+deku-node: [DEBUG] js.message: {
+              "hash": "ono5AMG5rY4EkTNfXen1uBd2x16cHeRijSRSCN6mqUX3Wx8RYpH",
+              "transactions": [
+                { "entrypoint": "update_root_hash",
+                "value": {
+                  "prim": "Pair",
+                  "args": [
+                    { "prim": "Pair",
+                    "args": [
+                      { "prim": "Pair",
+                      "args": [
+                        { "int": "147" }, {
+                        "bytes": "cb3232ba121a8bedb089b5efc84caf70e07e92254c929c03cc5869958891a10d"
+                      }
+                      ] }, { "prim": "Pair",
+                      "args": [
+                        [
+                        { "prim": "Some",
+                        "args": [
+                          {
+                          "string": "edpkuenbD7x8YsYJ8k7DvDHDww6VHyFqgB8YGeSZAZ9id7uCp19mnF"
+                        }
+                        ] }, { "prim": "Some",
+                        "args": [
+                          {
+                          "string": "edpktqpVwTuXpb1zTeaoVeJw6TXZiFVp9tUSPXrSFknqKWqtjc8xY3"
+                        }
+                        ] }, { "prim": "None" } ], {
+                        "bytes": "0e5751c026e543b2e8ab2eb06099daa1d1e5df47778f7787faab45cdf12fe3a8"
+                      }
+                      ] }
+                    ] }, { "prim": "Pair",
+                    "args": [
+                      { "prim": "Pair",
+                      "args": [
+                        [
+                        { "prim": "Some",
+                        "args": [
+                          {
+                          "string": "edsigtie4mYJUGC1F1cMc2QLBZP7qtEuyVweLKKQw2ZFX9uYb3fR6NHu235MhMvi7BkfVM6QLj25RHwgq5KiSbgjm1TDr3HiNiH"
+                        }
+                        ] }, { "prim": "Some",
+                        "args": [
+                          {
+                          "string": "edsigtemhWdZMaHd9Ms2Y5ywq4bL3kEn1yjBd3dHxc5tQVxp3jYUwCeAzer79T3Z62kigPozWQwLes2Y4mVSfJtDfaEc8NMA2P3"
+                        }
+                        ] }, { "prim": "None" } ], {
+                        "bytes": "74a7ed2727288e121ffcadbbe6a4c22d59720db061034e1d4bd11d25350250bc"
+                      }
+                      ] }, [
+                      { "string": "tz1X5PjsJGY4A4mHcarbCWkmAtGNcVQzkBMc" }, {
+                      "string": "tz1inUbyxps1mTiDN9XCaA14ahmC9t83gppw" }, {
+                      "string": "tz1SVkcWodGH83SYQDZuzjgBGCdxdc8LEW9L" } ]
+                    ] }
+                  ]
+                } }
+              ]
+            }
+deku-node: [DEBUG] js.message: {
+              "hash": "ono5AMG5rY4EkTNfXen1uBd2x16cHeRijSRSCN6mqUX3Wx8RYpH",
+              "transactions": [
+                { "entrypoint": "update_root_hash",
+                "value": {
+                  "prim": "Pair",
+                  "args": [
+                    { "prim": "Pair",
+                    "args": [
+                      { "prim": "Pair",
+                      "args": [
+                        { "int": "147" }, {
+                        "bytes": "cb3232ba121a8bedb089b5efc84caf70e07e92254c929c03cc5869958891a10d"
+                      }
+                      ] }, { "prim": "Pair",
+                      "args": [
+                        [
+                        { "prim": "Some",
+                        "args": [
+                          {
+                          "string": "edpkuenbD7x8YsYJ8k7DvDHDww6VHyFqgB8YGeSZAZ9id7uCp19mnF"
+                        }
+                        ] }, { "prim": "Some",
+                        "args": [
+                          {
+                          "string": "edpktqpVwTuXpb1zTeaoVeJw6TXZiFVp9tUSPXrSFknqKWqtjc8xY3"
+                        }
+                        ] }, { "prim": "None" } ], {
+                        "bytes": "0e5751c026e543b2e8ab2eb06099daa1d1e5df47778f7787faab45cdf12fe3a8"
+                      }
+                      ] }
+                    ] }, { "prim": "Pair",
+                    "args": [
+                      { "prim": "Pair",
+                      "args": [
+                        [
+                        { "prim": "Some",
+                        "args": [
+                          {
+                          "string": "edsigtie4mYJUGC1F1cMc2QLBZP7qtEuyVweLKKQw2ZFX9uYb3fR6NHu235MhMvi7BkfVM6QLj25RHwgq5KiSbgjm1TDr3HiNiH"
+                        }
+                        ] }, { "prim": "Some",
+                        "args": [
+                          {
+                          "string": "edsigtemhWdZMaHd9Ms2Y5ywq4bL3kEn1yjBd3dHxc5tQVxp3jYUwCeAzer79T3Z62kigPozWQwLes2Y4mVSfJtDfaEc8NMA2P3"
+                        }
+                        ] }, { "prim": "None" } ], {
+                        "bytes": "74a7ed2727288e121ffcadbbe6a4c22d59720db061034e1d4bd11d25350250bc"
+                      }
+                      ] }, [
+                      { "string": "tz1X5PjsJGY4A4mHcarbCWkmAtGNcVQzkBMc" }, {
+                      "string": "tz1inUbyxps1mTiDN9XCaA14ahmC9t83gppw" }, {
+                      "string": "tz1SVkcWodGH83SYQDZuzjgBGCdxdc8LEW9L" } ]
+                    ] }
+                  ]
+                } }
+              ]
+            }
+deku-node: [INFO] block: 149
+deku-node: [INFO] block: 149
+deku-node: [INFO] block: 149
+deku-node: [DEBUG] js.message: {
+              "status": "applied",
+              "hash": "ono5AMG5rY4EkTNfXen1uBd2x16cHeRijSRSCN6mqUX3Wx8RYpH"
+            }
+deku-node: [INFO] block: 150
+deku-node: [INFO] block: 150
+deku-node: [INFO] block: 150
+deku-node: [INFO] block: 151
+deku-node: [INFO] block: 151
+deku-node: [INFO] block: 151
+deku-node: [INFO] block: 152
+deku-node: [INFO] block: 152
+deku-node: [INFO] block: 152
+deku-node: [INFO] block: 153
+deku-node: [INFO] block: 153
+deku-node: [INFO] block: 153
+deku-node: [INFO] block: 154
+deku-node: [INFO] block: 154
+deku-node: [INFO] block: 154
+deku-node: [INFO] block: 155
+deku-node: [INFO] block: 155
+deku-node: [INFO] block: 155
+deku-node: [INFO] block: 156
+deku-node: [INFO] block: 156
+deku-node: [INFO] block: 156
+deku-node: [INFO] block: 157
+deku-node: [INFO] block: 157
+deku-node: [INFO] block: 157
+deku-node: [INFO] block: 158
+deku-node: [INFO] block: 158
+deku-node: [INFO] New protocol snapshot hash: e7ea0c4b77b0aeff3e7463010bb24b6de4d1664161a703a8b570581de597a587
+deku-node: [INFO] New protocol snapshot hash: e7ea0c4b77b0aeff3e7463010bb24b6de4d1664161a703a8b570581de597a587
+deku-node: [INFO] block: 158
+deku-node: [INFO] New protocol snapshot hash: e7ea0c4b77b0aeff3e7463010bb24b6de4d1664161a703a8b570581de597a587
+deku-node: [INFO] block: 159
+deku-node: [INFO] block: 159
+deku-node: [INFO] block: 159
+deku-node: [INFO] block: 160
+deku-node: [INFO] block: 160
+deku-node: [INFO] block: 160
+deku-node: [DEBUG] js.message: {
+              "status": "applied",
+              "hash": "oo8wq6gq8vb2prLREtku1P2qzQKE8fEV9ZWeZjUiWpNn67fGs9p"
+            }
+deku-node: [DEBUG] js.message: {
+              "hash": "oo8wq6gq8vb2prLREtku1P2qzQKE8fEV9ZWeZjUiWpNn67fGs9p",
+              "transactions": [
+                { "entrypoint": "update_root_hash",
+                "value": {
+                  "prim": "Pair",
+                  "args": [
+                    { "prim": "Pair",
+                    "args": [
+                      { "prim": "Pair",
+                      "args": [
+                        { "int": "158" }, {
+                        "bytes": "c7a2ebb6c572baefe8d2d3f902eee30bb6aeb00dabfb17728cee9b60dfedfb4a"
+                      }
+                      ] }, { "prim": "Pair",
+                      "args": [
+                        [
+                        { "prim": "Some",
+                        "args": [
+                          {
+                          "string": "edpkuenbD7x8YsYJ8k7DvDHDww6VHyFqgB8YGeSZAZ9id7uCp19mnF"
+                        }
+                        ] }, { "prim": "Some",
+                        "args": [
+                          {
+                          "string": "edpktqpVwTuXpb1zTeaoVeJw6TXZiFVp9tUSPXrSFknqKWqtjc8xY3"
+                        }
+                        ] }, { "prim": "None" } ], {
+                        "bytes": "82f56350f9cac1d3e604fafef83555dcdc2a5180e296f57508448ced96b5f247"
+                      }
+                      ] }
+                    ] }, { "prim": "Pair",
+                    "args": [
+                      { "prim": "Pair",
+                      "args": [
+                        [
+                        { "prim": "Some",
+                        "args": [
+                          {
+                          "string": "edsigtuEt7oC3yFMq1CvQSoz9H7DC74jdU6RMQG3XMLH91QBJbnnhtfMYSnB1o5w1fE7vMMQavGLxzSZ9x9ExoHMQ4Vpxgj8NHV"
+                        }
+                        ] }, { "prim": "Some",
+                        "args": [
+                          {
+                          "string": "edsigtws2MQFhUy1qdQQvjGfoweCtPqyiMSkw5uzVAQc1ukgbCYiGjzmWrkqZGhQr6iugHRPMLLoz8tTKQYXEqtJnd9U1Gg3e6f"
+                        }
+                        ] }, { "prim": "None" } ], {
+                        "bytes": "3466f6a00dcd643c2475c8645f279f5759b5e5bf85ef3b594faaf005776ea4c6"
+                      }
+                      ] }, [
+                      { "string": "tz1X5PjsJGY4A4mHcarbCWkmAtGNcVQzkBMc" }, {
+                      "string": "tz1inUbyxps1mTiDN9XCaA14ahmC9t83gppw" }, {
+                      "string": "tz1SVkcWodGH83SYQDZuzjgBGCdxdc8LEW9L" } ]
+                    ] }
+                  ]
+                } }
+              ]
+            }
+deku-node: [DEBUG] js.message: {
+              "hash": "oo8wq6gq8vb2prLREtku1P2qzQKE8fEV9ZWeZjUiWpNn67fGs9p",
+              "transactions": [
+                { "entrypoint": "update_root_hash",
+                "value": {
+                  "prim": "Pair",
+                  "args": [
+                    { "prim": "Pair",
+                    "args": [
+                      { "prim": "Pair",
+                      "args": [
+                        { "int": "158" }, {
+                        "bytes": "c7a2ebb6c572baefe8d2d3f902eee30bb6aeb00dabfb17728cee9b60dfedfb4a"
+                      }
+                      ] }, { "prim": "Pair",
+                      "args": [
+                        [
+                        { "prim": "Some",
+                        "args": [
+                          {
+                          "string": "edpkuenbD7x8YsYJ8k7DvDHDww6VHyFqgB8YGeSZAZ9id7uCp19mnF"
+                        }
+                        ] }, { "prim": "Some",
+                        "args": [
+                          {
+                          "string": "edpktqpVwTuXpb1zTeaoVeJw6TXZiFVp9tUSPXrSFknqKWqtjc8xY3"
+                        }
+                        ] }, { "prim": "None" } ], {
+                        "bytes": "82f56350f9cac1d3e604fafef83555dcdc2a5180e296f57508448ced96b5f247"
+                      }
+                      ] }
+                    ] }, { "prim": "Pair",
+                    "args": [
+                      { "prim": "Pair",
+                      "args": [
+                        [
+                        { "prim": "Some",
+                        "args": [
+                          {
+                          "string": "edsigtuEt7oC3yFMq1CvQSoz9H7DC74jdU6RMQG3XMLH91QBJbnnhtfMYSnB1o5w1fE7vMMQavGLxzSZ9x9ExoHMQ4Vpxgj8NHV"
+                        }
+                        ] }, { "prim": "Some",
+                        "args": [
+                          {
+                          "string": "edsigtws2MQFhUy1qdQQvjGfoweCtPqyiMSkw5uzVAQc1ukgbCYiGjzmWrkqZGhQr6iugHRPMLLoz8tTKQYXEqtJnd9U1Gg3e6f"
+                        }
+                        ] }, { "prim": "None" } ], {
+                        "bytes": "3466f6a00dcd643c2475c8645f279f5759b5e5bf85ef3b594faaf005776ea4c6"
+                      }
+                      ] }, [
+                      { "string": "tz1X5PjsJGY4A4mHcarbCWkmAtGNcVQzkBMc" }, {
+                      "string": "tz1inUbyxps1mTiDN9XCaA14ahmC9t83gppw" }, {
+                      "string": "tz1SVkcWodGH83SYQDZuzjgBGCdxdc8LEW9L" } ]
+                    ] }
+                  ]
+                } }
+              ]
+            }
+deku-node: [DEBUG] js.message: {
+              "hash": "oo8wq6gq8vb2prLREtku1P2qzQKE8fEV9ZWeZjUiWpNn67fGs9p",
+              "transactions": [
+                { "entrypoint": "update_root_hash",
+                "value": {
+                  "prim": "Pair",
+                  "args": [
+                    { "prim": "Pair",
+                    "args": [
+                      { "prim": "Pair",
+                      "args": [
+                        { "int": "158" }, {
+                        "bytes": "c7a2ebb6c572baefe8d2d3f902eee30bb6aeb00dabfb17728cee9b60dfedfb4a"
+                      }
+                      ] }, { "prim": "Pair",
+                      "args": [
+                        [
+                        { "prim": "Some",
+                        "args": [
+                          {
+                          "string": "edpkuenbD7x8YsYJ8k7DvDHDww6VHyFqgB8YGeSZAZ9id7uCp19mnF"
+                        }
+                        ] }, { "prim": "Some",
+                        "args": [
+                          {
+                          "string": "edpktqpVwTuXpb1zTeaoVeJw6TXZiFVp9tUSPXrSFknqKWqtjc8xY3"
+                        }
+                        ] }, { "prim": "None" } ], {
+                        "bytes": "82f56350f9cac1d3e604fafef83555dcdc2a5180e296f57508448ced96b5f247"
+                      }
+                      ] }
+                    ] }, { "prim": "Pair",
+                    "args": [
+                      { "prim": "Pair",
+                      "args": [
+                        [
+                        { "prim": "Some",
+                        "args": [
+                          {
+                          "string": "edsigtuEt7oC3yFMq1CvQSoz9H7DC74jdU6RMQG3XMLH91QBJbnnhtfMYSnB1o5w1fE7vMMQavGLxzSZ9x9ExoHMQ4Vpxgj8NHV"
+                        }
+                        ] }, { "prim": "Some",
+                        "args": [
+                          {
+                          "string": "edsigtws2MQFhUy1qdQQvjGfoweCtPqyiMSkw5uzVAQc1ukgbCYiGjzmWrkqZGhQr6iugHRPMLLoz8tTKQYXEqtJnd9U1Gg3e6f"
+                        }
+                        ] }, { "prim": "None" } ], {
+                        "bytes": "3466f6a00dcd643c2475c8645f279f5759b5e5bf85ef3b594faaf005776ea4c6"
+                      }
+                      ] }, [
+                      { "string": "tz1X5PjsJGY4A4mHcarbCWkmAtGNcVQzkBMc" }, {
+                      "string": "tz1inUbyxps1mTiDN9XCaA14ahmC9t83gppw" }, {
+                      "string": "tz1SVkcWodGH83SYQDZuzjgBGCdxdc8LEW9L" } ]
+                    ] }
+                  ]
+                } }
+              ]
+            }
+deku-node: [INFO] block: 161
+deku-node: [INFO] block: 161
+deku-node: [INFO] block: 161
+deku-node: [INFO] block: 162
+deku-node: [INFO] block: 162
+deku-node: [INFO] block: 162
+deku-node: [INFO] block: 163
+deku-node: [INFO] block: 163
+deku-node: [INFO] block: 163
+deku-node: [INFO] block: 164
+deku-node: [INFO] block: 164
+deku-node: [INFO] block: 164
+deku-node: [INFO] block: 165
+deku-node: [INFO] block: 165
+deku-node: [INFO] block: 165
+deku-node: [INFO] block: 166
+deku-node: [INFO] block: 166
+deku-node: [INFO] block: 166
+deku-node: [INFO] block: 167
+deku-node: [INFO] block: 167
+deku-node: [INFO] block: 167
+deku-node: [INFO] block: 168
+deku-node: [INFO] block: 168
+deku-node: [INFO] block: 168
+deku-node: [INFO] block: 169
+deku-node: [INFO] block: 169
+deku-node: [INFO] block: 169
+deku-node: [INFO] block: 170
+deku-node: [INFO] block: 170
+deku-node: [INFO] New protocol snapshot hash: a607d5a25bd8e4fcf93937c7b822ac8f96538f39a018c4fda506f05061e80731
+deku-node: [INFO] New protocol snapshot hash: a607d5a25bd8e4fcf93937c7b822ac8f96538f39a018c4fda506f05061e80731
+deku-node: [INFO] block: 170
+deku-node: [INFO] New protocol snapshot hash: a607d5a25bd8e4fcf93937c7b822ac8f96538f39a018c4fda506f05061e80731
+deku-node: [INFO] block: 171
+deku-node: [INFO] block: 171
+deku-node: [INFO] block: 171
+deku-node: [DEBUG] js.message: {
+              "status": "applied",
+              "hash": "oot8V6NtSNpWVKcCTw7H5j8rqS9FFeWs3oom2UBH3t6EtxciE9T"
+            }
+deku-node: [INFO] block: 172
+deku-node: [INFO] block: 172
+deku-node: [INFO] block: 172
+deku-node: [DEBUG] js.message: {
+              "hash": "oot8V6NtSNpWVKcCTw7H5j8rqS9FFeWs3oom2UBH3t6EtxciE9T",
+              "transactions": [
+                { "entrypoint": "update_root_hash",
+                "value": {
+                  "prim": "Pair",
+                  "args": [
+                    { "prim": "Pair",
+                    "args": [
+                      { "prim": "Pair",
+                      "args": [
+                        { "int": "170" }, {
+                        "bytes": "93f4bc0d22c8d0210f8fc53c4a6eabd76fbdb3561d2f4465c806af85dab5bcea"
+                      }
+                      ] }, { "prim": "Pair",
+                      "args": [
+                        [
+                        { "prim": "Some",
+                        "args": [
+                          {
+                          "string": "edpkuenbD7x8YsYJ8k7DvDHDww6VHyFqgB8YGeSZAZ9id7uCp19mnF"
+                        }
+                        ] }, { "prim": "Some",
+                        "args": [
+                          {
+                          "string": "edpktqpVwTuXpb1zTeaoVeJw6TXZiFVp9tUSPXrSFknqKWqtjc8xY3"
+                        }
+                        ] }, { "prim": "None" } ], {
+                        "bytes": "82f56350f9cac1d3e604fafef83555dcdc2a5180e296f57508448ced96b5f247"
+                      }
+                      ] }
+                    ] }, { "prim": "Pair",
+                    "args": [
+                      { "prim": "Pair",
+                      "args": [
+                        [
+                        { "prim": "Some",
+                        "args": [
+                          {
+                          "string": "edsigu17SCj9dnEodd6UUKnNggzReNTzwuh8KKTTMm6Spo2MY3v2nTHzabuvgR9YbsbRpqtmm7V41ypR9PyfbVHYegh6FVdDTC5"
+                        }
+                        ] }, { "prim": "Some",
+                        "args": [
+                          {
+                          "string": "edsigthU9ssagMLRuJnMTAS3hFyW3iHecre58qk9obNVAqzHfGwoAXUBJvm3oNpSP5YrBoJT6XfRkB8NMKL6s4v3AyLLHrwzDDR"
+                        }
+                        ] }, { "prim": "None" } ], {
+                        "bytes": "e7ea0c4b77b0aeff3e7463010bb24b6de4d1664161a703a8b570581de597a587"
+                      }
+                      ] }, [
+                      { "string": "tz1X5PjsJGY4A4mHcarbCWkmAtGNcVQzkBMc" }, {
+                      "string": "tz1inUbyxps1mTiDN9XCaA14ahmC9t83gppw" }, {
+                      "string": "tz1SVkcWodGH83SYQDZuzjgBGCdxdc8LEW9L" } ]
+                    ] }
+                  ]
+                } }
+              ]
+            }
+deku-node: [DEBUG] js.message: {
+              "hash": "oot8V6NtSNpWVKcCTw7H5j8rqS9FFeWs3oom2UBH3t6EtxciE9T",
+              "transactions": [
+                { "entrypoint": "update_root_hash",
+                "value": {
+                  "prim": "Pair",
+                  "args": [
+                    { "prim": "Pair",
+                    "args": [
+                      { "prim": "Pair",
+                      "args": [
+                        { "int": "170" }, {
+                        "bytes": "93f4bc0d22c8d0210f8fc53c4a6eabd76fbdb3561d2f4465c806af85dab5bcea"
+                      }
+                      ] }, { "prim": "Pair",
+                      "args": [
+                        [
+                        { "prim": "Some",
+                        "args": [
+                          {
+                          "string": "edpkuenbD7x8YsYJ8k7DvDHDww6VHyFqgB8YGeSZAZ9id7uCp19mnF"
+                        }
+                        ] }, { "prim": "Some",
+                        "args": [
+                          {
+                          "string": "edpktqpVwTuXpb1zTeaoVeJw6TXZiFVp9tUSPXrSFknqKWqtjc8xY3"
+                        }
+                        ] }, { "prim": "None" } ], {
+                        "bytes": "82f56350f9cac1d3e604fafef83555dcdc2a5180e296f57508448ced96b5f247"
+                      }
+                      ] }
+                    ] }, { "prim": "Pair",
+                    "args": [
+                      { "prim": "Pair",
+                      "args": [
+                        [
+                        { "prim": "Some",
+                        "args": [
+                          {
+                          "string": "edsigu17SCj9dnEodd6UUKnNggzReNTzwuh8KKTTMm6Spo2MY3v2nTHzabuvgR9YbsbRpqtmm7V41ypR9PyfbVHYegh6FVdDTC5"
+                        }
+                        ] }, { "prim": "Some",
+                        "args": [
+                          {
+                          "string": "edsigthU9ssagMLRuJnMTAS3hFyW3iHecre58qk9obNVAqzHfGwoAXUBJvm3oNpSP5YrBoJT6XfRkB8NMKL6s4v3AyLLHrwzDDR"
+                        }
+                        ] }, { "prim": "None" } ], {
+                        "bytes": "e7ea0c4b77b0aeff3e7463010bb24b6de4d1664161a703a8b570581de597a587"
+                      }
+                      ] }, [
+                      { "string": "tz1X5PjsJGY4A4mHcarbCWkmAtGNcVQzkBMc" }, {
+                      "string": "tz1inUbyxps1mTiDN9XCaA14ahmC9t83gppw" }, {
+                      "string": "tz1SVkcWodGH83SYQDZuzjgBGCdxdc8LEW9L" } ]
+                    ] }
+                  ]
+                } }
+              ]
+            }
+deku-node: [DEBUG] js.message: {
+              "hash": "oot8V6NtSNpWVKcCTw7H5j8rqS9FFeWs3oom2UBH3t6EtxciE9T",
+              "transactions": [
+                { "entrypoint": "update_root_hash",
+                "value": {
+                  "prim": "Pair",
+                  "args": [
+                    { "prim": "Pair",
+                    "args": [
+                      { "prim": "Pair",
+                      "args": [
+                        { "int": "170" }, {
+                        "bytes": "93f4bc0d22c8d0210f8fc53c4a6eabd76fbdb3561d2f4465c806af85dab5bcea"
+                      }
+                      ] }, { "prim": "Pair",
+                      "args": [
+                        [
+                        { "prim": "Some",
+                        "args": [
+                          {
+                          "string": "edpkuenbD7x8YsYJ8k7DvDHDww6VHyFqgB8YGeSZAZ9id7uCp19mnF"
+                        }
+                        ] }, { "prim": "Some",
+                        "args": [
+                          {
+                          "string": "edpktqpVwTuXpb1zTeaoVeJw6TXZiFVp9tUSPXrSFknqKWqtjc8xY3"
+                        }
+                        ] }, { "prim": "None" } ], {
+                        "bytes": "82f56350f9cac1d3e604fafef83555dcdc2a5180e296f57508448ced96b5f247"
+                      }
+                      ] }
+                    ] }, { "prim": "Pair",
+                    "args": [
+                      { "prim": "Pair",
+                      "args": [
+                        [
+                        { "prim": "Some",
+                        "args": [
+                          {
+                          "string": "edsigu17SCj9dnEodd6UUKnNggzReNTzwuh8KKTTMm6Spo2MY3v2nTHzabuvgR9YbsbRpqtmm7V41ypR9PyfbVHYegh6FVdDTC5"
+                        }
+                        ] }, { "prim": "Some",
+                        "args": [
+                          {
+                          "string": "edsigthU9ssagMLRuJnMTAS3hFyW3iHecre58qk9obNVAqzHfGwoAXUBJvm3oNpSP5YrBoJT6XfRkB8NMKL6s4v3AyLLHrwzDDR"
+                        }
+                        ] }, { "prim": "None" } ], {
+                        "bytes": "e7ea0c4b77b0aeff3e7463010bb24b6de4d1664161a703a8b570581de597a587"
+                      }
+                      ] }, [
+                      { "string": "tz1X5PjsJGY4A4mHcarbCWkmAtGNcVQzkBMc" }, {
+                      "string": "tz1inUbyxps1mTiDN9XCaA14ahmC9t83gppw" }, {
+                      "string": "tz1SVkcWodGH83SYQDZuzjgBGCdxdc8LEW9L" } ]
+                    ] }
+                  ]
+                } }
+              ]
+            }
+deku-node: [INFO] block: 173
+deku-node: [INFO] block: 173
+deku-node: [INFO] block: 173
+deku-node: [INFO] block: 174
+deku-node: [INFO] block: 174
+deku-node: [INFO] block: 174
+deku-node: [INFO] block: 175
+deku-node: [INFO] block: 175
+deku-node: [INFO] block: 175
+Node is bootstrapped.
+Estimated gas: 6539.258 units (will add 100 for safety)
+Estimated storage: 67 bytes added (will add 20 for safety)
+Operation successfully injected in the node.
+Operation hash is 'ooRUMPqGfde1wj6jXK94mZQwya8LvcFDpQ1rxbQrXHftz2yk6vN'
+Waiting for the operation to be included...
+deku-node: [INFO] block: 176
+deku-node: [INFO] block: 176
+deku-node: [INFO] block: 176
+deku-node: [INFO] block: 177
+deku-node: [INFO] block: 177
+deku-node: [INFO] block: 177
+deku-node: [INFO] block: 178
+deku-node: [INFO] block: 178
+deku-node: [INFO] block: 178
+deku-node: [INFO] block: 179
+deku-node: [INFO] block: 179
+deku-node: [INFO] block: 179
+Operation found in block: BMNjU6XUjkeZ6UVkK8Rw2reZNu6vXkvcwc9UCKjSGeFcst8kgvf (pass: 3, offset: 0)
+This sequence of operations was run:
+  Manager signed operations:
+    From: tz1aSkwEot3L2kmUvcoxzjMomb9mvBNuzFK6
+    Fee to the baker: ꜩ0.001124
+    Expected counter: 24
+    Gas limit: 6640
+    Storage limit: 87 bytes
+    Balance updates:
+      tz1aSkwEot3L2kmUvcoxzjMomb9mvBNuzFK6 ............... -ꜩ0.001124
+      fees(tz1YPSCGWXwBdTncK2aCctSZAXWvGsGwVJqU,16884) ... +ꜩ0.001124
+    Transaction:
+      Amount: ꜩ0
+      From: tz1aSkwEot3L2kmUvcoxzjMomb9mvBNuzFK6
+      To: KT1X9Dt7Q3bSKhLnwsW8qi1D4hsvQrbJBLue
+      Entrypoint: withdraw_from_deku
+      Parameter: (Pair (Pair "KT1NvCdgVnszLWyBoPGv1H56s3Bpeq9kgPbD"
+                             (Pair (Pair (Pair 10 0x) (Pair 0 "KT1X9Dt7Q3bSKhLnwsW8qi1D4hsvQrbJBLue"))
+                                   "KT1X9Dt7Q3bSKhLnwsW8qi1D4hsvQrbJBLue"))
+                       (Pair 0x82f56350f9cac1d3e604fafef83555dcdc2a5180e296f57508448ced96b5f247 {}))
+      This transaction was successfully applied
+      Updated storage: Unit
+      Storage size: 796 bytes
+      Consumed gas: 1997.018
+    Internal operations:
+      Transaction:
+        Amount: ꜩ0
+        From: KT1X9Dt7Q3bSKhLnwsW8qi1D4hsvQrbJBLue
+        To: KT1NvCdgVnszLWyBoPGv1H56s3Bpeq9kgPbD
+        Entrypoint: withdraw
+        Parameter: (Pair (Pair 0x01f7760bb74e3ffba9e9fce67738856b98e3495312006275726e5f63616c6c6261636b
+                               (Pair (Pair (Pair 10 0x) (Pair 0 0x01f7760bb74e3ffba9e9fce67738856b98e349531200))
+                                     0x01f7760bb74e3ffba9e9fce67738856b98e349531200))
+                         (Pair 0x82f56350f9cac1d3e604fafef83555dcdc2a5180e296f57508448ced96b5f247 {}))
+        This transaction was successfully applied
+        Updated storage:
+          (Pair (Pair (Pair (Pair 0xdcfd3a20f79e7b866abcaf68bb95ff15cafa7dad768d305435bded2fbfbb71a7 170)
+                            (Pair 0x82f56350f9cac1d3e604fafef83555dcdc2a5180e296f57508448ced96b5f247
+                                  0xe7ea0c4b77b0aeff3e7463010bb24b6de4d1664161a703a8b570581de597a587))
+                      { 0x007d755a2637407b56e53edb397f513e991eaef3e6 ;
+                        0x00fde3d9bab49c817173c748827313fb0a5adcc150 ;
+                        0x004b3821618db1c6f7d68e96aa13d15188cbd84eb9 })
+                (Pair (Pair 100 101) 102))
+        Updated big_maps:
+          Set map(102)[(Pair 0x01f7760bb74e3ffba9e9fce67738856b98e349531200 0x)] to (Pair 0x01f7760bb74e3ffba9e9fce67738856b98e349531200 (Pair 0x 90))
+          Set map(101)[0] to Unit
+        Storage size: 4863 bytes
+        Paid storage size diff: 67 bytes
+        Consumed gas: 3284.942
+        Balance updates:
+          tz1aSkwEot3L2kmUvcoxzjMomb9mvBNuzFK6 ... -ꜩ0.01675
+      Transaction:
+        Amount: ꜩ0
+        From: KT1NvCdgVnszLWyBoPGv1H56s3Bpeq9kgPbD
+        To: KT1X9Dt7Q3bSKhLnwsW8qi1D4hsvQrbJBLue
+        Entrypoint: burn_callback
+        Parameter: (Pair 0x01f7760bb74e3ffba9e9fce67738856b98e349531200 (Pair 0x 10))
+        This transaction was successfully applied
+        Updated storage: Unit
+        Storage size: 796 bytes
+        Consumed gas: 1257.298
+
+The operation has only been included 0 blocks ago.
+We recommend to wait more.
+Use command
+  tezos-client wait for ooRUMPqGfde1wj6jXK94mZQwya8LvcFDpQ1rxbQrXHftz2yk6vN to be included --confirmations 5 --branch BLg1YemwKSBYNCmCTWwXzWs2eaiSBRiPPjbxjBVateMfaDcTUUw
+and/or an external block explorer.
+Call graph '_build/default/src/bin/deku_sandbox.exe deposit-withdraw-test':
+---------------------------------------------------------------------------
+[  105.24G cycles in 1 calls ]     - 100.00% : load(deku_sandbox)
+[  105.24G cycles in 1 calls ]     |   - 100.00% : Deku_sandbox.deposit_withdraw_test
+[  105.24G cycles in 1 calls ]     |   |   - 100.00% : [1;31mDeku_sandbox.run_ret[0m
+
+Note: Nodes accounting for less than 1.00% of their parent have been ignored.
+
+Aggregated table:
+----------------
+                              Name;                    Filename;    Calls;     Time
+                              ROOT;             src/landmark.ml;        0;  105.24G
+                load(deku_sandbox);   src/bin/deku_sandbox.ml:1;        1;  105.24G
+Deku_sandbox.deposit_withdraw_test; src/bin/deku_sandbox.ml:266;        1;  105.24G
+              Deku_sandbox.run_ret;  src/bin/deku_sandbox.ml:12;        1;  105.24G
+       Deku_sandbox.mode_to_string;  src/bin/deku_sandbox.ml:34;        1;  468.00 
+close
+close
+close
